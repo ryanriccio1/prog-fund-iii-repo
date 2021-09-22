@@ -1,0 +1,4 @@
+﻿  driver_part2.cpp
+C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Program3\driver_part2.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Program3\driver_part2.cpp(27): message : see reference to function template instantiation 'void display<int>(ArraySet<int> &)' being compiled
+  Program3.vcxproj -> C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Debug\Program3.exe

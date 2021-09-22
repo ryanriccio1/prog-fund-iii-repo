@@ -1,0 +1,67 @@
+\hypertarget{class_rectangle_interface}{}\doxysection{Rectangle\+Interface Class Reference}
+\label{class_rectangle_interface}\index{RectangleInterface@{RectangleInterface}}
+Inheritance diagram for Rectangle\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_rectangle_interface}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_rectangle_interface_a81027944f27f991b34d9ce811d3bfd92}{set}} (double new\+Length, double new\+Width)=0
+\item 
+\mbox{\Hypertarget{class_rectangle_interface_ae84b1c553bb22ec53b6828423ea822ba}\label{class_rectangle_interface_ae84b1c553bb22ec53b6828423ea822ba}} 
+virtual double {\bfseries get\+Length} () const =0
+\item 
+\mbox{\Hypertarget{class_rectangle_interface_a7d36b74167665abedc5058e35dd47c3c}\label{class_rectangle_interface_a7d36b74167665abedc5058e35dd47c3c}} 
+virtual double {\bfseries get\+Width} () const =0
+\item 
+\mbox{\Hypertarget{class_rectangle_interface_a2dc20b0ee0b5b1d2d2105279cc3b6ae0}\label{class_rectangle_interface_a2dc20b0ee0b5b1d2d2105279cc3b6ae0}} 
+virtual double {\bfseries get\+Area} () const =0
+\item 
+virtual \mbox{\hyperlink{class_rectangle_interface_acef4cf855b0d7a2d803246020afe2ba4}{$\sim$\+Rectangle\+Interface}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_rectangle_interface_acef4cf855b0d7a2d803246020afe2ba4}\label{class_rectangle_interface_acef4cf855b0d7a2d803246020afe2ba4}} 
+\index{RectangleInterface@{RectangleInterface}!````~RectangleInterface@{$\sim$RectangleInterface}}
+\index{````~RectangleInterface@{$\sim$RectangleInterface}!RectangleInterface@{RectangleInterface}}
+\doxysubsubsection{\texorpdfstring{$\sim$RectangleInterface()}{~RectangleInterface()}}
+{\footnotesize\ttfamily virtual Rectangle\+Interface\+::$\sim$\+Rectangle\+Interface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Destroys this Circle and frees its assigned memory. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_rectangle_interface_a81027944f27f991b34d9ce811d3bfd92}\label{class_rectangle_interface_a81027944f27f991b34d9ce811d3bfd92}} 
+\index{RectangleInterface@{RectangleInterface}!set@{set}}
+\index{set@{set}!RectangleInterface@{RectangleInterface}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily virtual bool Rectangle\+Interface\+::set (\begin{DoxyParamCaption}\item[{double}]{new\+Length,  }\item[{double}]{new\+Width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Updates length and width of the \mbox{\hyperlink{class_rectangle}{Rectangle}} 
+\begin{DoxyParams}{Parameters}
+{\em new\+Length} & the new length for the \mbox{\hyperlink{class_rectangle}{Rectangle}} \\
+\hline
+{\em new\+Width} & the new width for the \mbox{\hyperlink{class_rectangle}{Rectangle}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+new\+Length and new\+Width must be greater than 0.\+0 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If new\+Length and new\+Width are valid, the radius of this object is set to these values Otherwise, the \mbox{\hyperlink{class_rectangle}{Rectangle}} is not updated 
+\end{DoxyPostcond}
+\begin{DoxyReturn}{Returns}
+True if this object is updated, and false otherwise. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_rectangle_ae3851123906260a89c3cfa9de3c3d946}{Rectangle}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Program2/\mbox{\hyperlink{_rectangle_interface_8h}{Rectangle\+Interface.\+h}}\end{DoxyCompactItemize}
