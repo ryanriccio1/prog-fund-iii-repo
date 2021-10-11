@@ -1,6 +1,0 @@
-﻿  EncryptedString.cpp
-C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Program1\EncryptedString.cpp(16,50): warning C4018: '<': signed/unsigned mismatch
-C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Program1\EncryptedString.cpp(46,50): warning C4018: '<': signed/unsigned mismatch
-  Test.cpp
-  Generating Code...
-  Program1.vcxproj -> C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Debug\Program1.exe

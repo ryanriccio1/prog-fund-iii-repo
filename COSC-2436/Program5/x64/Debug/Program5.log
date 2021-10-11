@@ -1,5 +1,0 @@
-﻿  PostfixCalculator.cpp
-  driver.cpp
-  Generating Code...
-C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\Program5\driver.cpp(60): warning C4715: 'stringToBool': not all control paths return a value
-  Program5.vcxproj -> C:\Users\rshar\Desktop\Projects\School\COSC-2436\COSC-2436\x64\Debug\Program5.exe
